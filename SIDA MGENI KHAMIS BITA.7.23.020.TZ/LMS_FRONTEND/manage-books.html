@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Manage Books</title>
+</head>
+<script src="js/bootstrap.min.js"></script>
+<body>
+    <div class="container col-md-12 " style="background-color: rgba(248, 248, 250, 0.865);">
+    <div class="table-responsive-md" id="table" >
+        <table class="table table-sm table-striped" style="background-color: black">
+            <thead>
+                <tr>
+                    <th><a href="index.html" > Library System</a></th>
+                     <th><a href="index.html"> Manage Users</a></th>
+                     <th><a href="index.html" >Manage Books</a></th>
+                     <th><a href="index.html" > Manage Members</a></th>
+                     <th><a href="index.html" > Manage Issuances</a></th>
+                     <th><a href="index.html" > Manage Returns</a></th>
+                     <th><a href="index.html" > Reports</a></th>
+                     <th><a href="index.html" s> Accounts</a></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    </div>
+    <div class="container">
+    <h4><b>Manage Books</b></h4>
+    <div class="container">
+                <table id="usersTable" class="table">
+
+                    <tr>
+                        <th>Title</th>
+                        <th>ISBN</th>
+                        <th>Author</th>
+                        <th>Publisher</th>
+                        <th>Status</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>The Great Gatsby</td>
+                        <td>980743273565</td>
+                        <td>F.scott Fitzgerald</td>
+                        <td>Scribner</td>
+                        <td><button type="button" class="btn btn-warning">Unavailable</button></td>
+                        <td><button type="button" class="btn btn-primary">Edit</button></td>
+                        <td><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>To kill a MokingBird</td>
+                        <td>9780060935467</td>
+                        <td>Harper lee</td>
+                        <td>Herper perennial</td>
+                        <td><button type="button" class="btn btn-success">Available</button></td>
+                        <td><button type="button" class="btn btn-primary">Edit</button></td>
+                        <td><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                </table>       
+            </div>
+
+            <div class="container col-md-12 ">
+                <button type="button" class="btn btn-dark col-md-12">@2025 Library Management System. All right reserved</h1>
+        </div>
+    </div>
+   </div>
+   
+</body>
+</html>
